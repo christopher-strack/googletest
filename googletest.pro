@@ -28,8 +28,4 @@ HEADERS += \
 
 QT -= core gui
 
-INCLUDEPATH += \
-	modules/googletest/include \
-	modules/googletest
-
-DEPENDPATH += modules/googletest/include
+include(googletest.pri)
