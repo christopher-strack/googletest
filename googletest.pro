@@ -1,6 +1,7 @@
 TARGET = googletest
 TEMPLATE = lib
 CONFIG += staticlib
+QMAKE_CXXFLAGS += -w
 
 SOURCES += \
 	modules/googletest/src/gtest.cc \
