@@ -1,6 +1,6 @@
 TARGET = googletest
 TEMPLATE = lib
-CONFIG += staticlib
+CONFIG += staticlib c++11
 QMAKE_CXXFLAGS += -w
 
 SOURCES += \
