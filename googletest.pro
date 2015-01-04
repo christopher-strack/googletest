@@ -1,7 +1,11 @@
 TARGET = googletest
 TEMPLATE = lib
-CONFIG += staticlib c++11
+CONFIG += c++11
 QMAKE_CXXFLAGS += -w
+
+!android {
+    CONFIG += staticlib
+}
 
 SOURCES += \
 	modules/googletest/src/gtest.cc \
